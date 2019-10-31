@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.Bloque{
+	width: 900px;
+	height: 600px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.morado{
+	display: flex;
+	background-color: #D4A7F8;
+	border: 1px solid black;
+	width: 900px;
+	height: 150px;
+	justify-content: space-between;
+	align-items: center;
+}
+.rosa{
+	background-color: #FE89E5;
+	width: 250px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+.Bloque2{
+	display: flex;
+	width: 900px;
+	height: 350px;
+}
+.azul{
+	display:flex;
+	width: 700px;
+	height: 350px;
+	background: #6ECDE3;
+	/*border:1px solid black;*/
+	justify-content: space-around;
+	align-items: flex-end; 
+}
+.cafe{
+	display:flex;
+	width: 200px;
+	height: 350px;
+	background-color: #8F6012 ;
+	border: 1px solid black;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.amarillos{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+.verde{
+	display: flex;
+	width: 900px;
+	height: 100px;
+	background-color: #D0EE7F;
+	justify-content: center;
+	border: 1px solid black;
+}
